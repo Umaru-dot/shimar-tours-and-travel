@@ -1,0 +1,142 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.location, .contact, .email {
+    margin: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.travel-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: green;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-content {
+    display: none;
+}
+
+.section-content.active {
+    display: block;
+}
+
+.home-section, .about, .services, .packages, .pages, .contact, .register {
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 110px);
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: darkgreen;
+}
+
+.registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.registration-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 4
+}
